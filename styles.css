@@ -1,11 +1,170 @@
 /* Add your CSS to this file */
 body {
     margin: 0;
+    padding: 0;
     font-size: 16px;
+    font-family: system-ui, sans-serif;
+}
+
+.container h1{
+    display: inline;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1{
+    font-size: 18px;
+}
+
+.container nav{
+    float: right;
+}
+
+.container nav ul li{
+    display: inline;
+}
+
+.container nav ul li a{
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    color: #6b7280;
+    font-weight: bold;
+    
+}
+
+.container nav ul li a:hover{
+    color: #5A67D8;
 }
 
 .container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+}
+
+.overview-hero {
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.overview-hero .container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #E2E8F0;
+    padding: 20px;
+}
+
+.overview-hero img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* ===== learn about Section ===== */
+
+.learn-about h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.learn-about .cards {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+
+.learn-about .cards .card {
+    flex: 1;
+    background-color: #F7FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: #6b7280 2px 2px 5px;
+    margin: 0 10px;
+}
+
+.learn-about .cards .card h3{
+    font-size: 21px;
+    color: #48bb78;
+}
+
+.learn-about img {
+    max-width: 150px;
+    height: 200px;
+}
+/* ===== COVID-19 Testing Section ===== */
+
+.testing .container div{
+    text-align: center;
+    flex: 1;
+    padding: 30px;
+}
+
+.testing .container{
+    background-color: #4a5568;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testing .cta a {
+    background-color: #48bb78;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+/* ===== Stories Section ===== */
+
+.stories h2{
+    color: #5a67d8;
+}
+
+.stories h3{
+    font-size: 18px;
+}
+
+.stories article{
+    display: flex;
+
+}
+
+.stories img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.stories a{
+    text-decoration: none;
+    color: #5A67D8;
+}
+
+/* ===== newsletter Section ===== */
+
+.newsletter .container{
+    background-color: #48BB78;
+    color: white;
+    padding: 10px;
+}
+
+.newsletter .btn{
+    background-color: #5A67D8;
+}
+
+footer .container{
+    background-color: #4A5568;
+    color: white;
+    padding: 10px;
 }
